@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>display</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./grid.css"></head>
+<body>
+    <div class="title " >
+        <h1 >grid系统</h1>
+        <small>前端杂货铺</small>
+    </div>
+    <div class="container">
+        <div class="grid">
+            <div class="grid-cell">
+                <div class="demo">1</div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="grid-cell">
+                <div class="demo">1/2</div>
+            </div>
+            <div class="grid-cell">
+                <div class="demo">1/2</div>
+            </div>
+        </div>
+        <!-- custom -->
+        <div class="grid">
+            <div class="grid-cell col-1">
+                <div class="demo">1/12</div>
+            </div>
+            <div class="grid-cell col-3">
+                <div class="demo">3/12</div>
+            </div>
+            <div class="grid-cell">
+                <div class="demo">auto</div>
+            </div>
+        </div>
+        <!-- Nested -->
+        <div class="grid">
+            <div class="grid-cell col-1">
+                <div class="demo">
+                    <div class="grid">
+                        <div class="grid-cell">
+                            <div class="demo">Nested</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-cell col-3">
+                <div class="demo">3/12</div>
+            </div>
+            <div class="grid-cell">
+                <div class="demo">auto</div>
+            </div>
+        </div>
+
+        <!-- align top-->
+        <div class="grid grid-top">
+            <div class="grid-cell">
+                <div class="demo">This cell should be top-aligned.</div>
+            </div>
+            <div class="grid-cell col-6">
+                <div class="demo">
+                    Pellentesque sagittis vel erat ac laoreet. Phasellus ac aliquet enim, eu aliquet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar porta leo, eu ultricies nunc sollicitudin vitae. Curabitur pulvinar dolor lectus, quis porta turpis ullamcorper nec. Quisque eget varius turpis, quis iaculis nibh.
+                </div>
+            </div>
+            <div class="grid-cell">
+                <div class="demo">This cell should be top-aligned.</div>
+            </div>
+        </div>
+        <!-- align middle-->
+        <div class="grid grid-middle">
+            <div class="grid-cell">
+                <div class="demo">This cell should be top-aligned.</div>
+            </div>
+            <div class="grid-cell col-6">
+                <div class="demo">
+                    Pellentesque sagittis vel erat ac laoreet. Phasellus ac aliquet enim, eu aliquet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar porta leo, eu ultricies nunc sollicitudin vitae. Curabitur pulvinar dolor lectus, quis porta turpis ullamcorper nec. Quisque eget varius turpis, quis iaculis nibh.
+                </div>
+            </div>
+            <div class="grid-cell">
+                <div class="demo">This cell should be top-aligned.</div>
+            </div>
+        </div>
+        <!-- align bottom-->
+        <div class="grid grid-bottom">
+            <div class="grid-cell">
+                <div class="demo">This cell should be top-aligned.</div>
+            </div>
+            <div class="grid-cell col-6">
+                <div class="demo">
+                    Pellentesque sagittis vel erat ac laoreet. Phasellus ac aliquet enim, eu aliquet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar porta leo, eu ultricies nunc sollicitudin vitae. Curabitur pulvinar dolor lectus, quis porta turpis ullamcorper nec. Quisque eget varius turpis, quis iaculis nibh.
+                </div>
+            </div>
+            <div class="grid-cell">
+                <div class="demo">This cell should be top-aligned.</div>
+            </div>
+        </div>
+        <!-- align mixed-->
+        <div class="grid grid-top">
+            <div class="grid-cell grid-cell-top">
+                <div class="demo">This cell should be top-aligned.</div>
+            </div>
+            <div class="grid-cell grid-cell-middle col-6">
+                <div class="demo">
+                    Pellentesque sagittis vel erat ac laoreet. Phasellus ac aliquet enim, eu aliquet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar porta leo, eu ultricies nunc sollicitudin vitae. Curabitur pulvinar dolor lectus, quis porta turpis ullamcorper nec. Quisque eget varius turpis, quis iaculis nibh.
+                </div>
+            </div>
+            <div class="grid-cell grid-cell-bottom">
+                <div class="demo">This cell should be top-aligned.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

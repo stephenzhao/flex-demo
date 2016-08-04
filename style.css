@@ -1,0 +1,303 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+    display: block
+}
+
+audio,canvas,progress,video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code,kbd,pre,samp {
+    font-family: monospace;
+    font-size: 1em
+}
+
+button,input,optgroup,select,textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+button,html input[type=button],input[type=reset],input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox],input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: 700
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,th {
+    padding: 0
+}
+
+
+*,:after,:before {
+    box-sizing: border-box
+}
+
+html {
+    height: 100%;
+    color: #404040;
+    font: 400 1em/1.4 'Open Sans',sans-serif;
+    text-rendering: optimizeLegibility
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-resolution:1.5dppx),(min-resolution:144dpi) {
+    html {
+        font-weight:300
+    }
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2em;
+    -webkit-font-kerning: normal;
+    letter-spacing: -.015em;
+    line-height: 1;
+    margin: .25em 0 .75em
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size:2.5em;
+        margin: .5em 0 1em
+    }
+}
+
+h2 {
+    font-size: 1.333em;
+    margin: 0 0 1.12528em
+}
+
+h2,h3 {
+    font-weight: 600
+}
+
+h3 {
+    font-size: 1em
+}
+
+h3,p,pre {
+    margin: 0 0 1.5em
+}
+
+code,pre {
+    font-family: Menlo,Monaco,monospace
+}
+
+code {
+    font-size: .9em;
+    font-weight: 400;
+    color: #000
+}
+
+pre>code {
+    font: inherit;
+    color: inherit
+}
+
+a {
+    border-bottom: 1px dashed rgba(70,185,128,.5);
+    color: #46b980;
+    text-decoration: none
+}
+
+a:focus,a:hover {
+    border-bottom: 1px solid #46b980
+}
+
+ol,ul {
+    list-style: square;
+    margin: 0 0 1.5em;
+    padding: 0 0 0 1.5em
+}
+
+li {
+    margin-bottom: .333em
+}
+
+figure {
+    margin: 0
+}
+
+strong {
+    font-weight: 600
+}
+.title{
+    text-align: center;
+}
+.container {
+    max-width: 50em;
+    margin: 100px auto
+}
+
+.demo {
+    text-align: center;
+    border: 2px solid #fff;
+    width: 100%;
+    padding: .8em 1em 0;
+    background: hsla(31,15%,50%,.1);
+    border-radius: 3px
+}
+
+.demo:after {
+    content: '\00a0';
+    display: block;
+    margin-top: 1em;
+    height: 0;
+    visibility: hidden
+}
+
+.Demo--spaced {
+    margin-bottom: 1.5em
+}
